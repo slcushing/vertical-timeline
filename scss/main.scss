@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a9a9a9;
+}
+
+.timeline {
+    width: 5px;
+    background-color: black;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+
+.guts {
+    display: block;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    position: relative;
+    margin: 20px;
+}
