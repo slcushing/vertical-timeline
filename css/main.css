@@ -147,4 +147,31 @@ img {
   right: 0px;
 }
 
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .column {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .column::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
