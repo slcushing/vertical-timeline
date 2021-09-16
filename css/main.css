@@ -135,4 +135,15 @@ img {
   height: 50%;
 }
 
+@media (min-width: 720px) {
+  .timeline::after {
+    display: inline-block;
+  }
+}
+@media (max-width: 720px) {
+  timeline::after {
+    display: inline-block;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
